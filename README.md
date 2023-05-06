@@ -80,4 +80,3 @@ flutter run
 
 The [MIT License](https://github.com/AndersonD-art/tasksmobx/commit/64a80024d73a84de3b5a21dfe15dad5fd4c10c7c) (MIT)
 
-Copyright :copyright: 2021 - Tasks Mobx
