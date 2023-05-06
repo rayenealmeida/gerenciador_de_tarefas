@@ -42,6 +42,12 @@ class _GerenciadorTarefasState extends State<GerenciadorTarefas> {
     });
   }
 
+  void toggleTaskCompletion(int index) {
+    setState(() {
+      tasks[index].concluida = !tasks[index].concluida;
+    });
+  }
+
   void showTaskDescription(int index) {
     showDialog(
       context: context,
@@ -51,6 +57,20 @@ class _GerenciadorTarefasState extends State<GerenciadorTarefas> {
           content: Text(
               'Descrição: ${tasks[index].descricao}\nData de criação: ${tasks[index].dataCriacao}'),
           actions: [
+            TextButton(
+              child: Text('Marcar como concluída'),
+              onPressed: () {
+                toggleTaskCompletion(index);
+                Navigator.of(context).pop();
+              },
+            ),
+            TextButton(
+              child: Text('Excluir'),
+              onPressed: () {
+                deleteTask(index);
+                Navigator.of(context).pop();
+              },
+            ),
             TextButton(
               child: Text('Fechar'),
               onPressed: () {
@@ -74,17 +94,25 @@ class _GerenciadorTarefasState extends State<GerenciadorTarefas> {
       body: ListView.builder(
         itemCount: tasks.length,
         itemBuilder: (context, index) {
-          return ListTile(
-            title: Text(tasks[index].descricao),
-            onTap: () {
-              showTaskDescription(index);
+          return CheckboxListTile(
+            title: Text(
+              tasks[index].descricao,
+              style: TextStyle(
+                decoration:
+                    tasks[index].concluida ? TextDecoration.lineThrough : null,
+              ),
+            ),
+            value: tasks[index].concluida,
+            onChanged: (bool? value) {
+              toggleTaskCompletion(index);
             },
-            trailing: IconButton(
+            secondary: IconButton(
               icon: const Icon(Icons.delete),
               onPressed: () {
                 deleteTask(index);
               },
             ),
+            controlAffinity: ListTileControlAffinity.leading,
           );
         },
       ),
@@ -131,6 +159,10 @@ class _GerenciadorTarefasState extends State<GerenciadorTarefas> {
 class Tarefa {
   final String descricao;
   final DateTime dataCriacao;
+  bool concluida;
 
-  Tarefa({required this.descricao, required this.dataCriacao});
+  Tarefa(
+      {required this.descricao,
+      required this.dataCriacao,
+      this.concluida = false});
 }
