@@ -58,11 +58,6 @@ Objetivo: Permitir ao usuário gerenciar suas tarefas diárias.
 
 Ator principal: Usuário
 
-Pré-condições:
-
-    +O aplicativo deve estar instalado no dispositivo do usuário.
-    +O usuário deve estar autenticado.
-
 Fluxo principal:
 
     1. O usuário abre o aplicativo.
