@@ -53,26 +53,26 @@ class _GerenciadorTarefasState extends State<GerenciadorTarefas> {
       context: context,
       builder: (context) {
         return AlertDialog(
-          title: Text('Descrição da tarefa'),
+          title: const Text('Descrição da tarefa'),
           content: Text(
               'Descrição: ${tasks[index].descricao}\nData de criação: ${tasks[index].dataCriacao}'),
           actions: [
             TextButton(
-              child: Text('Marcar como concluída'),
+              child: const Text('Marcar como concluída'),
               onPressed: () {
                 toggleTaskCompletion(index);
                 Navigator.of(context).pop();
               },
             ),
             TextButton(
-              child: Text('Excluir'),
+              child: const Text('Excluir'),
               onPressed: () {
                 deleteTask(index);
                 Navigator.of(context).pop();
               },
             ),
             TextButton(
-              child: Text('Fechar'),
+              child: const Text('Fechar'),
               onPressed: () {
                 Navigator.of(context).pop();
               },
