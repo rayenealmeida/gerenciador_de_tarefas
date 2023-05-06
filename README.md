@@ -44,7 +44,7 @@
 No terminal, clone o projeto: 
 
 ```
-git clone https://github.com/rayenealmeida/gerenciador_de_tarefas/tree/master
+git clone https://github.com/rayenealmeida/gerenciador_de_tarefas.git
 ```
 certifique-se de estar na pasta todox para rodar o projeto:
 
