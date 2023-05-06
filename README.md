@@ -71,7 +71,7 @@ flutter run
 ## 🎓 Autora
 
  <br />
- <sub><b>Rayene Ferreira Almeida</b></sub> 👨‍💻☕
+ <sub><b>Rayene Ferreira Almeida</b></sub> ☕
  <br />
 
 
