@@ -1,16 +1,5 @@
 # todox
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-
 > Status do Projeto: :heavy_check_mark: (concluido)
 ---
 
@@ -25,8 +14,6 @@ samples, guidance on mobile development, and a full API reference.
 :small_blue_diamond: [Casos de uso](#-casos-de-uso)
 
 :small_blue_diamond: [Linguagens, dependencias e libs utilizadas](#-linguagens-dependencias-e-libs-utilizadas)
-
-:small_blue_diamond: [Desenvolvedores Contribuintes](#-desenvolvedores-contribuintes)
 
 :small_blue_diamond: [Autor](#-autor)
 
@@ -59,9 +46,11 @@ No terminal, clone o projeto:
 ```
 git clone https://github.com/rayenealmeida/gerenciador_de_tarefas/tree/master
 ```
----
-Cerifique se que está dentro da pasta todox
-execute o comando: flutter run
+certifique-se de estar na pasta todox para rodar o projeto:
+
+```
+flutter run
+```
 
 ## Casos de uso
 
