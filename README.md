@@ -54,9 +54,38 @@ flutter run
 
 ## Casos de uso
 
-💬 O projeto "ToDoX" é um Gerenciador de Tarefas, ou seja, é um sistema que permite criar, gerenciar e acompanhar tarefas a serem realizadas. O sistema é baseado em uma estrutura de classes orientadas a objetos,Este projeto é um aplicativo de gerenciamento de tarefas chamado
+Objetivo: Permitir ao usuário gerenciar suas tarefas diárias.
 
-💬 "ToDoX" é um Gerenciador de Tarefas desenvolvido em Flutter. O aplicativo permite que o usuário adicione, visualize e gerencie tarefas. O aplicativo possui uma tela principal que exibe uma lista de tarefas. Cada tarefa da lista é exibida como um ListTile com um título, uma caixa de seleção de conclusão e um botão de informações para exibir mais detalhes sobre a tarefa. O usuário pode adicionar novas tarefas clicando no botão de adicionar. O aplicativo usa o estado do widget para controlar a lista de tarefas e atualizar a interface do usuário em tempo real à medida que as tarefas são adicionadas ou alteradas.
+Ator principal: Usuário
+
+Pré-condições:
+
+    +O aplicativo deve estar instalado no dispositivo do usuário.
+    +O usuário deve estar autenticado.
+
+Fluxo principal:
+
+    1. O usuário abre o aplicativo.
+    2. O sistema exibe uma lista de tarefas cadastradas previamente, se houver.
+    3. O usuário pode adicionar novas tarefas através do botão "Adicionar tarefa".
+    4. O sistema exibe um campo de texto para que o usuário digite a descrição da tarefa.
+    5. O usuário digita a descrição da tarefa e clica em "Adicionar".
+    6. O sistema adiciona a tarefa na lista de tarefas.
+    7. O usuário pode marcar uma tarefa como concluída através do checkbox.
+    8. O sistema marca a tarefa como concluída.
+    9. O usuário pode visualizar os detalhes da tarefa ao clicar na mesma.
+    10. O sistema exibe os detalhes da tarefa, incluindo a descrição e a data de criação.
+    11. O usuário pode marcar a tarefa como concluída ou excluí-la através dos botões na tela de detalhes.
+    12. O sistema marca a tarefa como concluída ou a exclui, de acordo com a ação do usuário.
+
+Fluxo alternativo:
+
+    13. No passo 5 do fluxo principal, o usuário clica em "Cancelar" ao invés de "Adicionar".
+    14. O sistema não adiciona a tarefa na lista de tarefas.
+
+Pós-condições:
+
+    As tarefas cadastradas pelo usuário são salvas no sistema e podem ser visualizadas e gerenciadas posteriormente.
 
 ---
 
