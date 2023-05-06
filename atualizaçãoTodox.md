@@ -1,10 +1,30 @@
 Projeto ToDoX
 
-O projeto "ToDoX" é um Gerenciador de Tarefas, ou seja, é um sistema que permite criar, gerenciar e acompanhar tarefas a serem realizadas. O sistema é baseado em uma estrutura de classes orientadas a objetos,Este projeto é um aplicativo de gerenciamento de tarefas chamado
-
  "ToDoX" é u Gerenciador de Tarefas desenvolvido em Flutter. O aplicativo permite que o usuário adicione, visualize e gerencie tarefas. O aplicativo possui uma tela principal que exibe uma lista de tarefas. Cada tarefa da lista é exibida como um ListTile com um título, uma caixa de seleção de conclusão e um botão de informações para exibir mais detalhes sobre a tarefa. O usuário pode adicionar novas tarefas clicando no botão de adicionar. O aplicativo usa o estado do widget para controlar a lista de tarefas e atualizar a interface do usuário em tempo real à medida que as tarefas são adicionadas ou alteradas.
 
+Substantivos:
+    ToDoX
+    Gerenciador de Tarefas
+    Lista de Tarefas
+    Tarefa
+    Descrição da Tarefa
+    Data de Criação
+    Concluída
+    Barra de Navegação
 
+Verbos:
+
+    Adicionar
+    Deletar
+    Alternar
+    Mostrar
+    Exibir
+    Marcar
+    Fechar
+    Cancelar
+    Criar
+    Mudar
+    Preencher
 
 
 
@@ -26,3 +46,4 @@ O projeto "ToDoX" é um Gerenciador de Tarefas, ou seja, é um sistema que permi
 |         |	os atributos de cada tarefa, como descrição, data de criação e estado de
 |         |	conclusão.
 -------------------------------------------------------------------------------------------------
+
