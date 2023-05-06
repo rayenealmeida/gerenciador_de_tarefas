@@ -46,12 +46,22 @@ No terminal, clone o projeto:
 ```
 git clone https://github.com/rayenealmeida/gerenciador_de_tarefas.git
 ```
-certifique-se de estar na pasta todox para rodar o projeto:
 
+Acesse o diretório do projeto:
+```
+cd gerenciador_de_tarefas/todox
+```
+
+Execute o seguinte comando para baixar as dependências do projeto:
+```
+flutter pub get
+```
+
+Conecte um dispositivo móvel ou inicie um emulador Android ou iOS.
+Execute o aplicativo no dispositivo ou emulador com o seguinte comando:
 ```
 flutter run
 ```
-
 ## Casos de uso
 
 Objetivo: Permitir ao usuário gerenciar suas tarefas diárias.
