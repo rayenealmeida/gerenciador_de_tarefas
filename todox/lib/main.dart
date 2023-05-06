@@ -94,7 +94,7 @@ class _GerenciadorTarefasState extends State<GerenciadorTarefas> {
       body: ListView.builder(
         itemCount: tasks.length,
         itemBuilder: (context, index) {
-          return CheckboxListTile(
+          return ListTile(
             title: Text(
               tasks[index].descricao,
               style: TextStyle(
@@ -102,17 +102,15 @@ class _GerenciadorTarefasState extends State<GerenciadorTarefas> {
                     tasks[index].concluida ? TextDecoration.lineThrough : null,
               ),
             ),
-            value: tasks[index].concluida,
-            onChanged: (bool? value) {
-              toggleTaskCompletion(index);
+            onTap: () {
+              showTaskDescription(index);
             },
-            secondary: IconButton(
-              icon: const Icon(Icons.delete),
-              onPressed: () {
-                deleteTask(index);
+            trailing: Checkbox(
+              value: tasks[index].concluida,
+              onChanged: (bool? value) {
+                toggleTaskCompletion(index);
               },
             ),
-            controlAffinity: ListTileControlAffinity.leading,
           );
         },
       ),
