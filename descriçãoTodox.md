@@ -35,12 +35,15 @@ Verbos:
 |           |   que configura a aplicação em geral.
 |---------------------------------------------------------------------------------------------
 |                  | 	É a classe responsável por gerenciar o estado da lista de tarefas. 
-|GerenciadorTarefas|	Ela herda de StatefulWidget e tem como objetivo criar um estado mutável |                  |	para a aplicação, implementando a lógica de adição, remoção e marcação |                  |	de tarefas concluídas.
+|GerenciadorTarefas|	Ela herda de StatefulWidget e tem como objetivo criar um estado mutável
+|                  |	para a aplicação, implementando a lógica de adição, remoção e marcação
+|                  |	de tarefas concluídas.
 |------------------------------------------------------------------------------------------------
 |                        |	É a classe que implementa o estado mutável gerenciado pela 
 |_GerenciadorTarefasState|	classe GerenciadorTarefas. Ela herda de State
 |                        |	<GerenciadorTarefas> e contém as variáveis de estado da
-|                        |	aplicação, como a lista de tarefas e o controlador de campo de |                        |	texto.
+|                        |	aplicação, como a lista de tarefas e o controlador de campo de
+|                        |	texto.
 |-----------------------------------------------------------------------------------------------
 | Tafrefa |	É a classe que define a estrutura de cada tarefa presente na lista. Ela contém
 |         |	os atributos de cada tarefa, como descrição, data de criação e estado de
