@@ -3,22 +3,6 @@
 > Status do Projeto: :heavy_check_mark: (concluido)
 ---
 
-### Tópicos 
-
-:small_blue_diamond: [Descrição do projeto](#-descrição-do-projeto)
-
-:small_blue_diamond: [Pré-requisitos](#-pré-requisitos)
-
-:small_blue_diamond: [Como execultar a aplicação](#-como-execultar-a-aplicação)
-
-:small_blue_diamond: [Casos de uso](#-casos-de-uso)
-
-:small_blue_diamond: [Linguagens, dependencias e libs utilizadas](#-linguagens-dependencias-e-libs-utilizadas)
-
-:small_blue_diamond: [Autor](#-autor)
-
---- 
-
 ## Descrição do projeto 
 
 <p align="justify">
@@ -91,7 +75,6 @@ Fluxo alternativo:
 Pós-condições:
 
     As tarefas cadastradas pelo usuário são salvas no sistema e podem ser visualizadas e gerenciadas posteriormente.
-
 ---
 
 ## Linguagens, dependencias e libs utilizadas
@@ -99,16 +82,12 @@ Pós-condições:
 - [Layout: Flutter app](https://docs.flutter.dev/ui/layout)
 - [Material Components widgets: Flutter app](https://docs.flutter.dev/ui/widgets/material)
 
-
 ---
 
 ## 🎓 Autora
-
  <br />
  <sub><b>Rayene Ferreira Almeida</b></sub> ☕
  <br />
-
-
 
 ## 📝 Licença 
 
