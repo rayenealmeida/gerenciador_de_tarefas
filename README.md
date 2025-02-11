@@ -91,5 +91,5 @@ Pós-condições:
 
 ## 📝 Licença 
 
-The [MIT License](https://github.com/AndersonD-art/tasksmobx/commit/64a80024d73a84de3b5a21dfe15dad5fd4c10c7c) (MIT)
+The [MIT License](https://github.com/rayenealmeida/gerenciador_de_tarefas/tree/master?tab=MIT-1-ov-file) (MIT)
 
